@@ -9,8 +9,8 @@ def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
         the cosine of the angle between a and b, or 0.0 if either has
         zero length.
     """
-    a = np.asarray(a, dtype = float)
-    b = np.asarray(b, dtype = float)
+    # a = np.asarray(a, dtype = float)
+    # b = np.asarray(b, dtype = float)
     
     dot = np.dot(a, b)
     norm = np.linalg.norm(a) * np.linalg.norm(b)
